@@ -1,0 +1,142 @@
+* {
+	box-sizing: border-box;
+}
+body{
+	background-image: url(v.jpg);
+	
+	background-position: cover;
+}
+/*CSS for the Logo*/
+.Logo{
+	font-family: serif;
+	font-size: 25px;
+	color:#E6BE8A;
+    text-align: center;
+    margin-left: center;
+}
+.links{
+        align:center;
+        background-color: #00b386;
+        border:1px solid #00b386;
+        color: white;
+        margin-left:10%;
+        margin-right: 10%;
+        padding: 10px;
+        font-family: Times;
+        font-size: 30px;
+        text-decoration-line: none;
+    }
+a {
+  color: #F5B041;
+  text-decoration: black;
+}
+
+a:hover {  
+  color: orange;
+}
+
+/*CSS for the Home Page*/
+.WelcomingHeading{
+	text-align: center;
+}
+.CenterText{
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 24px;
+	background-color: #DCDCDC;
+	margin-right: 30%;
+	margin-left: 30%;
+}
+/*Css for the site map*/
+.Footer{
+	background-color:  #D3D3D3;
+	text-align: center;
+	padding: 10px;
+  font-size: 14px;
+}
+/*CSS for the Board*/
+.container {
+ 	margin-bottom: 150x;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+button {
+  outline: none;
+  border: 2px solid black;
+  padding: 5px 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  background: none;
+  transition: all 0.2s ease-in-out;
+  margin:10px;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #45B39D;
+  color: white;
+}
+.play-area {
+  display: grid;
+  width: 300px;
+  height: 300px;
+  grid-template-columns: auto auto auto;
+}
+.block {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: bold;
+  border: 3px solid black;
+  transition: background 0.2s ease-in-out;
+}
+
+.block:hover {
+  cursor: pointer;
+  background: #0ff30f;
+}
+.occupied:hover {
+  background: #ff3a3a;
+}
+#block_0,
+#block_1,
+#block_2 {
+  border-top: none;
+}
+
+#block_0,
+#block_3,
+#block_6 {
+  border-left: none;
+}
+
+#block_6,
+#block_7,
+#block_8 {
+  border-bottom: none;
+}
+
+#block_2,
+#block_5,
+#block_8 {
+  border-right: none;
+}
+/*About Us CSS*/
+.Contact{
+  text-align: center;
+  font-family: Courier New;
+  font-size: 24px;
+  background-color: #DCDCDC;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+.Icons{
+  width:25px;
+  align-items: center;
+}

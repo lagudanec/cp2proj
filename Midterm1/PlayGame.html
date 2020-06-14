@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Play Game</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="design.css">
+ 		<!-- this means that we are referencing an external css file -->
+	</head>
+	<body>
+		<div class="Logo">
+			<h1>Tic Tac Toe</h1>
+		</div>
+		<div id="links">
+	         <a href="Welcome.html" class="links">Home Page</a>
+	         <a href="PlayGame.html" class="links">Play game</a>
+	         <a href="AboutUs.html" class="links">About Us</a>
+     	</div>
+		<div class="container">
+  		<h1>Press the start button to play</h1>
+  		<div>
+  			<button onclick="reset_board()">Start Game</button> <!--Change it after clicking Start Game to Reset Game -->
+		</div>
+		  <div class="play-area"> 
+			    <div id="block_0" class="block"></div>
+			    <div id="block_1" class="block"></div>
+			    <div id="block_2" class="block"></div>
+			    <div id="block_3" class="block"></div>
+			    <div id="block_4" class="block"></div>
+			    <div id="block_5" class="block"></div>
+			    <div id="block_6" class="block"></div>
+			    <div id="block_7" class="block"></div>
+			    <div id="block_8" class="block"></div>
+		  </div>
+		</div>
+		<div class="container">
+			  <h2 id="winner"></h2>
+			  <button onclick="reset_board()">I am X</button>
+			  <button onclick="reset_board()">I am O</button>
+		</div>
+		<div class="Footer">
+			<footer>
+				<a href="Welcome.html">Home Page/</a>
+				<a href="AboutUs.html">About Us/</a>
+				<a href="PlayGame.html">Play Game</a>
+		 		<p> &copy; PML Design Coorporation. </p>
+	 		</footer>
+ 		</div>
+	</body>
+</html>
